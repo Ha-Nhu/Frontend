@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+<!--Navigation-->
+.nav-container{
+    position: absolute;
+    max-width: 1200px;
+    margin: 0 auto;
+    left: 0px;
+    top: 0px;
+}
+.wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+.nav-items li a {
+    text-decoration: none;
+    padding: 0px 16px;
+}
+.button-items{
+    display: flex;
+    list-style: none;
+}
+.button-items li a{
+    text-decoration: none;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 12px 32px;
+    margin: 0px 8px;
+    border-radius: 6px;
+    
+}
+.Login{
+    background-color:#F1E4FF;
+    color: #8C30F5;
+}
+
+.Signup{
+    background-color: #8C30F5;
+    color: white;
+}
+/*Header*/
+.header-container{
+    margin-top: 150px;
+}
+.hero-wrapper{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 540px;
+    height: 356px;
+}
+h1{
+    font-size: 72px;
+    font-weight: 800;
+    margin-bottom: 32px;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+header a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    background-color: #8C30F5;
+    padding: 12px 32px;
+    border-radius: 6px;
+}
+.hero-image{
+    position: absolute;
+    width: 640px;
+    height: 640px;
+    right: 65px;
+    top: calc(50% - 640px/2 + 36px);
+    background: #D6B1FF;
+    border-radius: 1000px;
+}
+.Get-deals{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+.Deals-wrapper{
+    width: 445px;
+    height: 232px;
+}
+.Deal-title{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 64px;
+    margin-bottom: 8px;
+}
+.Deal-description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+}
